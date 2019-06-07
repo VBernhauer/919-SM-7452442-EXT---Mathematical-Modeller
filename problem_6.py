@@ -10,11 +10,10 @@ import sys
 
 n = int(sys.argv[1])
 
-integer_array = []
-integer_sq_array = []
 k = 0
 sum_k = 0
 sum_sq_k = 0
+
 for _ in range(n):
 	
 	k = k + 1
