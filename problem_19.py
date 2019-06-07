@@ -20,9 +20,9 @@ total_sundays = 0
 for year in range(1900, 2001, 1):
 
 	if year % 400 == 0:		
-			Feb = 29
+		Feb = 29
 	elif year % 4 == 0 and year % 100 == 0:
-			Feb = 28
+		Feb = 28
 	elif year % 4 == 0:
 		Feb = 29	
 	else:
@@ -37,5 +37,4 @@ for year in range(1900, 2001, 1):
 					total_sundays = total_sundays + 1
 
 
-print("The number of Sundays that fell on the first of the month during the \
-twentieth century (1 Jan 1901 to 31 Dec 2000) was " + str(total_sundays))
+print("The number of Sundays that fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000) was " + str(total_sundays))
