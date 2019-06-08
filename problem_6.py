@@ -2,8 +2,12 @@
 
 #
 # to run this script in the terminal:
-# ./path/to/script/problem_6.py 100
+# ./path/to/script/problem_6.py <integer>
 #
+# Example:
+# ./path/to/script/problem_6.py 100 
+# gives the result for the first one hundred natural numbers.
+# 
 
 import sys
 
